@@ -3,17 +3,18 @@ How to Start the Server:
 2. npm run dev
 3. Ctrl + Click on the terminal: Local:http://localhost:5174/
 
+
+Notes:
 1. custom fonts
-2. data
+2. data folder: to change the data in the UI
 3. social links/ React Icons
-4. colors can be changed through CSS variables
-5. getForm! please use your own api
+4. colors can be changed through CSS variables in index.css
+5. getForm! please use your own api in ContactForm component
 6. Logo Component for the Logo
-7. Image/ please use the dimensions/ please use the image name set
+7. Image/ please use the dimensions set in the placeholder/ please use the file name for images/ just rename your downloaded images to the name available on the file
 8. Squoush for resize
 
 REFERENCE:
-
 1. Colors : https://coolors.co/palettes/trending
 2. GetForm: https://getform.io/
 3. Custom Google Fonts: https://fonts.google.com/
