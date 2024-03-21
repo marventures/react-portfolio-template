@@ -4,6 +4,7 @@
 4. colors can be changed through CSS variables
 5. getForm! please use your own api
 6. Logo Component for the Logo
+7. Image/ please use the dimensions/ please use the image name set
 
 REFERENCE:
 
