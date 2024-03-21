@@ -1,0 +1,50 @@
+.homeContainer {
+  height: 100%;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    height: 85vh;
+  }
+
+  @media (min-width: 1024px) {
+    height: 65vh;
+  }
+
+  @media (min-width: 1200px) {
+    height: 85vh;
+  }
+}
+
+.homeDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+
+  @media (min-width: 768px) {
+    align-items: flex-start;
+  }
+}
+
+.homeName {
+  font-size: 40px;
+
+  @media (min-width: 1024px) {
+    font-size: 60px;
+  }
+}
+
+.homeText {
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}

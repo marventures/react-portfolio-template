@@ -1,0 +1,106 @@
+.aboutContainer {
+  height: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    height: 95vh;
+  }
+
+  @media (min-width: 1024px) {
+    height: 50vh;
+  }
+
+  @media (min-width: 1200px) {
+    height: 80vh;
+  }
+}
+
+.topPortion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  margin-bottom: 30px;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    column-gap: 40px;
+  }
+}
+
+.aboutImage {
+  @media (min-width: 768px) {
+    margin: 0 auto;
+  }
+}
+
+.topWrapPos {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--PRIMARY);
+  margin-bottom: 30px;
+}
+
+.topWrapDesc {
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.topWrapThumb {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    column-gap: 40px;
+  }
+}
+
+.pre {
+  font-size: 16px;
+  margin-right: 15px;
+  color: var(--PRIMARY);
+  line-height: 0;
+}
+
+.pre::before {
+  content: '\003E';
+}
+
+.aboutListItem {
+  display: flex;
+  align-items: baseline;
+}
+
+.bottomPortion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    column-gap: 60px;
+  }
+
+  @media (min-width: 1024px) {
+    column-gap: 60px;
+  }
+
+  @media (min-width: 1200px) {
+    column-gap: 200px;
+  }
+}
+
+.bottomPortionTitle {
+  margin-bottom: 30px;
+  color: var(--PRIMARY);
+}

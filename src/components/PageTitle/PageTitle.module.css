@@ -1,0 +1,26 @@
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--DARK);
+}
+
+.title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  display: inline-block;
+  background: var(--PRIMARY);
+  margin: 4px 10px;
+}
+
+.subtitle {
+  margin: 20px 0px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: var(--DARK);
+}
