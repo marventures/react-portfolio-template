@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-template",
   "private": true,
-  "homepage": "react-portfolio-template-lake.vercel.app/",
+  "homepage": "https://react-portfolio-template-lake.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
