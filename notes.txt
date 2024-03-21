@@ -1,3 +1,8 @@
+How to Start the Server:
+1. npm i
+2. npm run dev
+3. Ctrl + Click on the terminal: Local:http://localhost:5174/
+
 1. custom fonts
 2. data
 3. social links/ React Icons
@@ -15,3 +20,5 @@ REFERENCE:
 4. Vercel: https://vercel.com/
 5. Squoush: https://squoosh.app/
 6. React-Spinners: https://www.davidhu.io/react-spinners/
+
+
