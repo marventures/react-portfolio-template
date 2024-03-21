@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import css from './Sidebar.module.css';
-import { navLinks } from '../../data/header-links';
+import { navLinks } from '../../data/nav-links';
 import { MdOutlineClose } from 'react-icons/md';
+import PropTypes from 'prop-types';
 
 export const Sidebar = ({ isOpen, onClose }) => {
   return (
@@ -35,4 +36,9 @@ export const Sidebar = ({ isOpen, onClose }) => {
       </div>
     </>
   );
+};
+
+Sidebar.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
 };

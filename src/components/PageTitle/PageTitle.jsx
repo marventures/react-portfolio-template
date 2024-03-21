@@ -1,4 +1,5 @@
 import css from './PageTitle.module.css';
+import PropTypes from 'prop-types';
 
 export const PageTitle = ({ title, subtitle }) => {
   return (
@@ -7,4 +8,9 @@ export const PageTitle = ({ title, subtitle }) => {
       <h3 className={css.subtitle}>{subtitle}</h3>
     </div>
   );
+};
+
+PageTitle.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };
