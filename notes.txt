@@ -1,0 +1,13 @@
+1. custom fonts
+2. data
+3. social links/ React Icons
+4. colors can be changed through CSS variables
+5. getForm! please use your own api
+6. Logo Component for the Logo
+
+REFERENCE:
+
+1. Colors : https://coolors.co/palettes/trending
+2. GetForm: https://getform.io/
+3. Custom Google Fonts: https://fonts.google.com/
+4. Vercel: https://vercel.com/
