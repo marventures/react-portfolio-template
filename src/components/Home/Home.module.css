@@ -9,11 +9,7 @@
 
   @media (min-width: 768px) {
     flex-direction: row;
-    height: 85vh;
-  }
-
-  @media (min-width: 1024px) {
-    height: 65vh;
+    padding: 200px 0;
   }
 
   @media (min-width: 1200px) {
