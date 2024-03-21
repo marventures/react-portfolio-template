@@ -5,6 +5,7 @@
 5. getForm! please use your own api
 6. Logo Component for the Logo
 7. Image/ please use the dimensions/ please use the image name set
+8. Squoush for resize
 
 REFERENCE:
 
@@ -12,3 +13,4 @@ REFERENCE:
 2. GetForm: https://getform.io/
 3. Custom Google Fonts: https://fonts.google.com/
 4. Vercel: https://vercel.com/
+5. Squoush: https://squoosh.app/
