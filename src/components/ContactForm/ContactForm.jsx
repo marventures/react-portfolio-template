@@ -34,7 +34,7 @@ export const ContactForm = () => {
               placeholder="John Doe"
               required
             />
-            <span className={css.formLabel}>Name*</span>
+            <span className={css.formLabel}>Name *</span>
           </label>
 
           <label className={css.formField}>
@@ -45,7 +45,7 @@ export const ContactForm = () => {
               placeholder="john_doe@email.com"
               required
             />
-            <span className={css.formLabel}>Email*</span>
+            <span className={css.formLabel}>Email *</span>
           </label>
         </div>
 
